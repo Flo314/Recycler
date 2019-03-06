@@ -32,7 +32,7 @@ class CountryAdapter(val countries: Array<String>) : RecyclerView.Adapter<Countr
         // récupérer el pays
         val country = countries[position];
         // met à jour le holder
-        holder.icon.setImageResource(R.mipmap.ic_launcher_round);
+        holder.icon.setImageResource(R.drawable.android);
         holder.name.text = country;
     }
 
